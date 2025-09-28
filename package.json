@@ -1,0 +1,21 @@
+{
+  "name": "kaito-random-quote-api",
+  "version": "1.0.0",
+  "description": "A simple API that returns random quotes",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "jest"
+  },
+  "keywords": ["node", "express", "api", "quotes"],
+  "author": "Kaito",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.0"
+  }
+}
